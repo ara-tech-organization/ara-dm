@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - Ara Discoveries</title>
+    <meta property="og:title" content="Ara Discoveries Digital Marketing" />
+    <meta name="twitter:title" content="Ara Discoveries Digital Marketing" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="At ARA Discover, we offer a comprehensive range of digital
+    marketing services designed to help you achieve your online
+    goals"
+    />
+    <meta
+      name="keywords"
+      content="Ara, Discoveries, Digital, Marketing, Website Development, SEO, Social Media Marketing, Meta Ads, Google Ads, Graphic Design, Video Editing"
+    />
+    <meta name="author" content="Ara Discoveries Digital Marketing" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/images/favicon/favicon.jpg"
+    />
+
+    <!-- Bootstrap & Plugins CSS -->
+    <link
+      href="assets/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link href="assets/css/blue.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+    <script src="assets/js/mail.js"></script>
+
+    <style>
+      #successModal .modal-content {
+        text-align: center;
+        padding: 20px;
+      }
+      /* Loader Styles */
+      #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1050;
+        display: none;
+      }
+      .spinner-border {
+        width: 3rem;
+        height: 3rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/images/ara-logo.png"
+                  alt="Jirono"
+                  width="60%"
+                />
+                <!-- <h5>Ara Discoveries</h5> -->
+              </a>
+              <!-- ***** Logo End ***** -->
+
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+
+                <li class="submenu">
+                  <a href="services.html">Services</a>
+                  <ul>
+                    <li>
+                      <a href="ssm-service.html">Social Media Marketing</a>
+                    </li>
+                    <li>
+                      <a href="website-development-service.html"
+                        >Website Development</a
+                      >
+                    </li>
+
+                    <li><a href="meta-ads.html">Meta Ads</a></li>
+                    <li><a href="google-ads.html">Google Ads</a></li>
+                    <li><a href="graphic-design.html">Graphic Design</a></li>
+                    <li><a href="video-editing.html">Video Editing</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active-blue">Contact</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+
+              <!-- ***** Header Buttons Start ***** -->
+              <ul class="header-buttons">
+                <!-- <li><a class="btn-nav-line" href="#">SIGN IN</a></li> -->
+                <li>
+                  <a class="btn-nav-primary" href="contact.html"
+                    >BOOK A FREE CALL</a
+                  >
+                </li>
+              </ul>
+              <!-- ***** Header Buttons End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <section class="page">
+      <!-- ***** Page Content Start ***** -->
+      <div class="page-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="center-heading">
+                <p>Contact Us</p>
+                <h2 class="section-title about--title">
+                  Ara Discover Marketing
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="center-text">
+                <p>
+                  We’d love to hear from you! Whether you have a question, need assistance, or want to explore collaboration opportunities, our team is here to help. Reach out to us via phone, email, or our contact form, and we’ll get back to you as soon as possible. Visit our office for a face-to-face discussion—we’re always open to new ideas and partnerships. Let’s connect and create something amazing together!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="contact">
+                <div class="map-wrapper">
+                  <!-- ***** Google Maps Start ***** -->
+                  <div class="">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.2210528497735!2d79.1271691!3d10.785150999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baab986fba40a6b%3A0xc60663bc6b08e04e!2sARA%20Discoveries%20Private%20Limited!5e1!3m2!1sen!2sin!4v1738301790486!5m2!1sen!2sin"
+                      width="100%"
+                      height="450"
+                      style="border: 0"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                  <!-- ***** Google Maps End ***** -->
+                </div>
+                <div class="contact-info">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <div class="item">
+                        <i class="fa fa-location-arrow"></i>
+                        <div class="txt">
+                          <span
+                            >67A, Giri Rd, Srinivasapuram, Balaganapathy Nagar,
+                            Thanjavur, Tamil Nadu 613009</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <div class="item">
+                        <i class="fa fa-phone"></i>
+                        <div class="txt">
+                          <span>(+91) 81100 25254</span>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <i class="fa fa-envelope"></i>
+                        <div class="txt">
+                          <span
+                            ><a href="mailto:aradiscovermarketing@gmail.com"
+                              >aradiscovermarketing@gmail.com</a
+                            ></span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <div class="item">
+                        <ul class="social">
+                          <li>
+                            <a
+                              href="https://www.instagram.com/aradiscover_marketing/"
+                              target="_blank"
+                              ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.facebook.com/aradiscovermarketing"
+                              target="_blank"
+                              ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="https://x.com/AraDiscove54623" target="_blank"
+                              ><i class="fa-brands fa-x-twitter"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/company/ara-discover-marketing/"
+                              target="_blank"
+                              ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12" id="contact-form">
+              <div class="contact-bottom">
+                <div class="row">
+                  <!-- ***** Contact Text Start ***** -->
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h5 class="margin-bottom-30 get-in-touch-text">Let’s Connect & Create Something Amazing!</h5>
+                    <div class="contact-text">
+                      <p>
+                        We’d love to hear from you! Whether you have a question, need expert assistance, or are looking to collaborate, our team is always ready to help. Reach out to us via phone, email, or the contact form below, and we’ll get back to you as soon as possible.
+                      </p>
+                      <p><b>🌟 Want to meet in person?</b> Visit our office for a <b>face-to-face discussion</b>—we’re always open to exciting ideas and long-term partnerships. Let’s turn your vision into reality!</p>
+                    </div>
+                  </div>
+                  <!-- ***** Contact Text End ***** -->
+
+                  <div id="loader">
+                    <div class="spinner-border text-light" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+
+                  <!-- ***** Contact Form Start ***** -->
+                  <div class="col-lg-8 col-md-6 col-sm-12">
+                    <form id="contactForm">
+                      <div class="row">
+                        <!-- Name Input -->
+                        <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Name"
+                            required
+                            class="form-control"
+                          />
+                          <small class="text-danger" id="nameError"></small>
+                        </div>
+
+                        <!-- Email Input -->
+                        <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="E-Mail"
+                            required
+                            class="form-control"
+                          />
+                          <small class="text-danger" id="emailError"></small>
+                        </div>
+
+                        <!-- Phone Number Input -->
+                        <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                          <input
+                            type="text"
+                            name="phone"
+                            id="phone"
+                            placeholder="Phone Number"
+                            required
+                            class="form-control"
+                          />
+                          <small class="text-danger" id="phoneError"></small>
+                        </div>
+
+                        <!-- Message Input -->
+                        <div class="col-lg-12 mb-3">
+                          <textarea
+                            placeholder="Your message"
+                            required
+                            name="message"
+                            id="message"
+                            class="form-control"
+                            rows="5"
+                          ></textarea>
+                          <small class="text-danger" id="messageError"></small>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-lg-12">
+                          <input
+                            type="submit"
+                            value="SEND"
+                            class="btn btn-primary"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <!-- ***** Contact Form End ***** -->
+                </div>
+              </div>
+              <!-- Success Modal -->
+              <div
+                class="modal fade"
+                id="successModal"
+                tabindex="-1"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">Email sent successfully!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ***** Page Content End ***** -->
+    </section>
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 mr-lg-5">
+            <!-- <img src="assets/images/ara-logo.png" class="logo" alt="" /> -->
+            <h4 class="text-white">Ara Discover Marketing</h4>
+            <h6 class="text pb-4">A Divison of Ara Discoveries Pvt.Ltd</h6>
+            <div class="text">
+              At ARA Discover, we offer a comprehensive range of digital
+              marketing services designed to help you achieve your online goals
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <h5>Helpful Links</h5>
+            <ul class="footer-nav">
+              <li>
+                <a href="about.html"
+                  ><i class="fa fa-angle-right"></i><span>About Us</span></a
+                >
+              </li>
+
+              <li>
+                <a href="index.html#faq-section"
+                  ><i class="fa fa-angle-right"></i><span>FAQ’s</span></a
+                >
+              </li>
+              <li>
+                <a href="index.html#testimonial"
+                  ><i class="fa fa-angle-right"></i><span>Testimonial</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <h5>Quick Links</h5>
+            <ul class="footer-nav">
+              <li>
+                <a href="index.html"
+                  ><i class="fa fa-angle-right"></i><span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href="services.html"
+                  ><i class="fa fa-angle-right"></i><span>Services</span></a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="fa fa-angle-right"></i><span>Contact</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <h5>Contact Us</h5>
+            <div class="address">
+              <p>
+                <a href="https://shorturl.at/JnQso" target="_blank">
+                  67A, Giri Rd, Srinivasapuram, Balaganapathy Nagar, Thanjavur -
+                  613009
+                </a>
+              </p>
+              <p>
+                <a href="tel:+918110025254"> Phone: (91+) 81100 25254 </a>
+              </p>
+              <div class="item mt-4">
+                <ul class="social">
+                  <li>
+                    <a
+                      href="https://www.instagram.com/aradiscover_marketing/"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/aradiscovermarketing"
+                      target="_blank"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://x.com/AraDiscove54623" target="_blank"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/ara-discover-marketing/"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <p><span>E-Mail:</span><br><a href="#">aradiscovermarketing@gmail.com</a></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <a href="index.html">
+              <p class="copyright">
+                © 2025 Ara Discoveries Pvt Ltd. All Rights Reserved.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <form action="mail.php" method="post">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+              class="form-control"
+            />
+          </div>
+      
+          <div class="col-lg-6 col-md-12 col-sm-12 mb-3">
+            <input
+              type="email"
+              name="email"
+              placeholder="E-Mail"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+            <input
+              type="text"
+              name="phone"
+              placeholder="Phone Number"
+              required
+              class="form-control"
+            />
+          </div>
+      
+          <div class="col-lg-12 mb-3">
+            <textarea
+              placeholder="Your message"
+              required
+              name="message"
+              class="form-control"
+              rows="5"
+            ></textarea>
+          </div>
+      
+          <div class="col-lg-12">
+            <input
+              type="submit"
+              value="SEND"
+              class="btn btn-primary"
+            />
+          </div>
+        </div>
+      </form> -->
+    </footer>
+    <!-- ***** Footer End ***** -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAthC_2x5GtKhiH7rUumkMbwvp31qyFyA8"></script>
+    <script src="assets/js/map-script.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
